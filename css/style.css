@@ -62,6 +62,21 @@ p {
     color: var(--accent-color);
 }
 
+.link .icon{
+  
+  width: 16px;
+  height: 12px;
+  margin-right: 10px;
+  color: var(--main-text-color);
+
+}
+
+.link:hover .icon,
+.link:focus .icon{
+  color: var(--accent-color);
+}
+
+
 .list{
   margin-top: 0;
   margin-bottom: 0;
@@ -122,7 +137,7 @@ flex-basis: calc(100%-30px*var(--grid-item)/var(--grid-item)) ;
 .social-icons-link:focus .icon{
   fill: var(--accent-color);
 }
-}
+
 .logo{
   font-family: "Raleway" , sans-serif;
   font-weight: bold;
@@ -136,6 +151,7 @@ flex-basis: calc(100%-30px*var(--grid-item)/var(--grid-item)) ;
 
 .main-nav{
   display: flex;
+  
   align-items: center;
   justify-content: space-around;
 
@@ -153,7 +169,7 @@ flex-basis: calc(100%-30px*var(--grid-item)/var(--grid-item)) ;
  
 .auth-nav{
   display:flex;
-  margin-left: 330px;
+  margin-left: 305px;
 
 }
 .auth-nav .item + .item {
@@ -163,7 +179,9 @@ margin-left: 50px;
 
 
 .dark-bg { 
-    background-color: var(--dark-bg-color);
+    display: block;
+    justify-content: center;
+    align-items: center;
 }
 .button{
  
@@ -254,9 +272,17 @@ margin-left: 50px;
 }*/
 
 .hero {
-  
+  display: flex;
+  align-items: center;
+  min-height: 100vh;
   text-align: center;
 
+}
+
+.hero .conteiner{
+   background-image: url(../images/imghero.jpg);
+   height: 600px;
+   width: 1600px;
 }
  .desc  {
    display:flex;
