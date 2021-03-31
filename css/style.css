@@ -389,15 +389,12 @@ margin-bottom: 50px;
   box-sizing: border-box;
   border-radius: 4px;
   
-  .social-icons-item-clients:not(:last-child) {
-    margin-right: 30px;
 
-  }
 
-/*footer*/
+ /*footer*/
 
-.footer{
-  display:flex;
+ .footer{
+  display: flex;
   
 }
 
@@ -426,82 +423,86 @@ height: 44px;
 border-radius: 50%;
 background: rgba(225 , 225 , 225 , 0.1);
 }
+
+
+
+
 /* portfolio */
 img{
 
-display: block;
-max-width: 100%;
-height:auto;
-
+  display: block;
+  max-width: 100%;
+  height:auto;
+ 
 }
 
 
 .header-portfolio {
 
-border-bottom:1px solid var(--main-text-color);
+  border-bottom:1px solid var(--main-text-color);
 
 }
 
 .portfolio-member {
 
-  font-weight: bold;
-  font-size: 18px;
-  line-height: 2;
-  letter-spacing: 0.06em;
-  color: var(--title-color); 
-  
- 
-  
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--title-color); 
+    
+   
+    
 
 }
 .team {
 
-font-size: 16px;
-line-height: 1.87;
-letter-spacing: 0.03em;
-color: var(--main-text-color); 
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: var(--main-text-color); 
 
 }
 
 .grid-item-portfolio {
 
-flex-basis: calc((100%-(30px*var(--grid-item)))/var(--grid-item));
-margin-left: 30px;
-margin-top: 30px;
-
+  flex-basis: calc((100%-(30px*var(--grid-item)))/var(--grid-item));
+  margin-left: 30px;
+  margin-top: 30px;
+ 
 
 }
 .grid-item-portfolio {
 
---grid-item: 9;
+ --grid-item: 9;
 }
 
 .portfolio {
 
-display:flex;
-flex-wrap: wrap;
-justify-content: center;
-margin-bottom: 50px;
-padding: 40px;
-
+  display:inline-flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 50px;
+  padding: 40px;
+ 
 } 
 .portfolio-item:not(:last-child) {
 
-margin-right: 8px;
-
-
+  margin-right: 8px;
+  
+ 
 }
 
 
 
 .card-text{
-margin-top: 5px;
+  margin-top: 5px;
 
 }
 
 .card-thumb{
-width: 370px;
-
+  width: 370px;
+ 
 }
 .card-content{
 display: inline-block;
@@ -512,16 +513,16 @@ background:#ffffff;
 border: 1px solid #EEEEEE;
 
 text-align: none;
-  
+    
 }
-
+  
 
 
 
 .button-portfolio{
-border: none;
-min-width: 73px;
-padding: 6px  22px;
-cursor: pointer;
+  border: none;
+  min-width: 73px;
+  padding: 6px  22px;
+  cursor: pointer;
 }
 
