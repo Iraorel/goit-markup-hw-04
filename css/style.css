@@ -5,6 +5,7 @@
     --title-color:#212121;
     --dark-bg-color:#2F303A;
     --light-bg-color:#F5F4FA;
+    --icon-color:#AFB1B8;
     --dark:#000000;
     --grid-item:1;
   
@@ -92,6 +93,35 @@ flex-basis: calc(100%-30px*var(--grid-item)/var(--grid-item)) ;
  --grid-item: 3;
 }
 
+/*icon*/
+.social-icons-item{
+  display: inline-flex;
+}
+
+.social-icons-link{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: var(--dark-bg-text-color);
+}
+.social-icons-item .icon {
+  width: 20px;
+  height: 20px;
+  fill: var(--icon-color)
+}
+.social-icons-link:hover .icon,
+.social-icons-link:focus .icon{
+  fill: var(--accent-color);
+
+}
+.social-icons-item + .social-icons-item {
+  margin-left: 10px;
+}
+
+
 .logo{
   font-family: "Raleway" , sans-serif;
   font-weight: bold;
@@ -119,7 +149,8 @@ flex-basis: calc(100%-30px*var(--grid-item)/var(--grid-item)) ;
   margin-right: 50px;
 
 }
- 
+ /*icon mail*/
+
 .auth-nav{
   display:flex;
   margin-left: 330px;
@@ -129,6 +160,22 @@ flex-basis: calc(100%-30px*var(--grid-item)/var(--grid-item)) ;
 margin-left: 50px;
  
 }
+
+.contacts-link {
+  display: flex;
+  align-items: center;
+}
+.contacts-link .icon{
+  width: 16px;
+  height: 12px;
+  stroke: var(--main-text-color);
+}
+
+.contacts-link:hover .icon,
+.contacts-link:focus .icon{
+ stroke:var(--accent-color) ;
+}
+
 /*hero*/
 
 .dark-bg-footer{ 
