@@ -168,6 +168,7 @@ margin-left: 50px;
 .contacts-link .icon{
   width: 16px;
   height: 12px;
+  margin-right: 20px;
   stroke: var(--main-text-color);
 }
 
@@ -298,6 +299,8 @@ margin-left: 50px;
   text-align: center;
 
 }
+/*приемущества*/
+
  .desc  {
    display:flex;
    margin-bottom: 94px;
@@ -306,6 +309,22 @@ margin-left: 50px;
  .desc .item:not(:last-child) {
    margin-right: 30px;
  }
+
+.advantages{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 270px;
+  height: 120px;
+  background: var(--light-bg-color);
+  border-radius: 4px;
+  margin-bottom: 30px;
+}
+
+.icon-advantages{
+  width: 65px;
+  height: 70px;
+}
 
  .text{
     font-family: Risque , sans-serif ;
