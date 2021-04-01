@@ -341,7 +341,9 @@ margin-left: 50px;
     letter-spacing: 0.03em ;
     text-transform: uppercase ;
     color: var(--title-color);
+
     margin-bottom: 50px;
+
   }
 
   .team-item{
@@ -360,6 +362,7 @@ margin-left: 50px;
     line-height: 1.19;
     letter-spacing: 0.03em;
     color: var(--title-color);
+    margin-bottom: 10px;
   }
 
   .team-desc{
@@ -367,10 +370,39 @@ margin-left: 50px;
     line-height: 1.19;
     letter-spacing: 0.03em;
     color: var(--main-text-color);
-
+    margin-bottom: 30px;
   }
 
+  .social-icons-item {
+    margin-bottom: 30px;
+  }
+ /* постоянные клиенты*/
+
+
+.grup-desk{
+  display: inline-flex;
  
+}
+
+ .clients-grup {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 170px;
+  height: 92px;
+
+  background: var(--light-bg-color);
+  border: 1px solid var(--icon-color);
+  box-sizing: border-box;
+  border-radius: 4px;
+
+}
+ .clients:not(:last-child){
+  margin-right: 30px;
+ 
+}
+
+
 
   /*footer*/
 
