@@ -185,17 +185,28 @@ margin-left: 50px;
 }
 
 .dark-bg-section{
-  display: flexbox;
-  width: 1700px;
+  display:inline-flex ;
+  width: 1600px;
   height: 608px;
   background-color: var(--light-bg-color);
 }
 
+.section-title .comands{
+box-sizing: border-box;
+  justify-content: center;
+  align-items: center;
+}
+ 
 .comands{
   display: flex;
   justify-content: center;
   align-items: center;
+
+  margin-top: 94px;
+  margin-bottom: 94px;
 }
+
+
 .hero {
   background-image: url(../images/imghero.jpg);
   max-width: 1600px; 
@@ -411,7 +422,7 @@ margin-left: 50px;
   width: 170px;
   height: 92px;
 
-  background: var(--light-bg-color);
+  background: var(--dark-bg-text-color);
   border: 1px solid var(--icon-color);
   box-sizing: border-box;
   border-radius: 4px;
@@ -422,12 +433,19 @@ margin-left: 50px;
  
 }
 
+.icon-clients-link{
+  fill:var(--icon-color);
+}
+
 .icon-clients-link:hover .icon,
 .icon-clients-link:focus .icon{
  stroke:var(--accent-color) ;
  
 }
 
+.team-item{
+  background-color: var(--dark-bg-text-color);
+}
   /*footer*/
 
   .footer{
